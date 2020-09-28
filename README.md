@@ -2,7 +2,7 @@
 SDK 4.2 to SDK 5.0 project converter
 This little project will help you convert your Fitbit projects from SDK 4.2 to SDK 5.0.
 
-**!!! Alpha version, use it at your own risk! Always do a back-up of your project before using this tool !!! **
+**Alpha version, use it at your own risk! Always do a back-up of your project before using this tool !!!**
 
 # How to use
 
@@ -17,7 +17,7 @@ fitbit-sdk5-converter -p projectfoldername
 -k (true/false) - remove kpay library files and add the new ones for SDK 5.0 (but you still need to add the kpay files from /app/ manually) - default false
 -d (true/false) - debug mode - default false
 
-**What idt does:**
+**What it does:**
 1. it will create a back-up of your old project
 2. it will copy your project into a new folder, appending "sdk5" in it's name
 3. it you modify package.json, remove old targets, add new targets, updating sdk versions and bump the version
