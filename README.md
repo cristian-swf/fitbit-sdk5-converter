@@ -8,9 +8,9 @@ This little project will help you convert your Fitbit projects from SDK 4.2 to S
 
 Download the code, then run npm install -g to install it globally
 
-**To convert a project, run:**
+### To convert a project, run:
 
-fitbit-sdk5-converter -p projectfoldername
+**npx fitbit-sdk5-converter -p projectfoldername [-options]
 
 **Additional options:**
 -b (true/false) - do not create a backup of the old project - default false
