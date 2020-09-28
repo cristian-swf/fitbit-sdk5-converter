@@ -19,15 +19,15 @@ Download the code, then run npm install -g to install it globally
 
 **What it does:**
 1. it will create a back-up of your old project
-2. it will copy your project into a new folder, appending "sdk5" in it's name
-3. it you modify package.json, remove old targets, add new targets, updating sdk versions and bump the version
-4. it will delete Ionic content
-5. if desired, will remove old kpay versiona and add files for the new one, except the /app/ folder from the kpay library, whick you will need to copy manually
-6. will rename .gui to .view and .defs
-7. will rename usages in .defs file
+2. it will copy your project into a new folder, appending "sdk5" to it's name
+3. it you modify your project's package.json, remove old targets, add new targets, update sdk versions and bump the version
+4. it will delete Ionic resources, if you have any
+5. if desired, will remove old kpay versions and add common files for the SDK 5 version, except the /app/ folder from the kpay library, whick you will need to copy manually from the downloaded zip
+6. will rename .gui to .view and/.or .defs
+7. will rename depracated usages in .defs file (not all of them, is wip)
 8. will try to center the previous centered elements
 9. will resize all images from resources folder from 300x300 to 336x336
-10. will copy all files from copyfiles directory to your new sdk5 project. Feel free to add your own translation or your needed files there.
+10. will copy all files from copyfiles directory to your new sdk5 project. Feel free to add your own translations, resources or your needed files there. By default, will copy the new icons. Feel free to modify them as you please.
 11. will run npm install in the new created folder
 
 That's it!
