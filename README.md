@@ -6,7 +6,7 @@ This little project will help you convert your Fitbit projects from SDK 4.2 to S
 
 # How to use
 
-Download the code, then run npm install -g to install it globally
+Download the code, then run *npm install -g* to install it globally
 
 ### To convert a project, run:
 
