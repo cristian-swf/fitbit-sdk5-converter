@@ -10,7 +10,7 @@ Download the code, then run npm install -g to install it globally
 
 ### To convert a project, run:
 
-** npx fitbit-sdk5-converter -p projectfoldername [-options]
+**npx fitbit-sdk5-converter -p projectfoldername [-options]**
 
 **Additional options:**
 -b (true/false) - do not create a backup of the old project - default false
