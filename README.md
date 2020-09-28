@@ -13,9 +13,9 @@ Download the code, then run npm install -g to install it globally
 **npx fitbit-sdk5-converter -p projectfoldername [-options]**
 
 **Additional options:**
--b (true/false) - do not create a backup of the old project - default false
--k (true/false) - remove kpay library files and add the new ones for SDK 5.0 (but you still need to add the kpay files from /app/ manually) - default false
--d (true/false) - debug mode - default false
+* -b (true/false) - do not create a backup of the old project - default false
+* -k (true/false) - remove kpay library files and add the new ones for SDK 5.0 (but you still need to add the kpay files from /app/ manually) - default false
+* -d (true/false) - debug mode - default false
 
 **What it does:**
 1. it will create a back-up of your old project
