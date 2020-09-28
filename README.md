@@ -28,5 +28,8 @@ Download the code, then run npm install -g to install it globally
 8. will try to center the previous centered elements
 9. will resize all images from resources folder from 300x300 to 336x336
 10. will copy all files from copyfiles directory to your new sdk5 project. Feel free to add your own translation or your needed files there.
+11. will run npm install in the new created folder
+
+That's it!
 
 **This is a work in progress!**
