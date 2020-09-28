@@ -1,0 +1,20 @@
+{
+  "name": "fitbit-sdk5-converter",
+  "version": "0.0.3",
+  "description": "Convert Fitbit projects from SDK 4.2 to SDK 5.0",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "StarWatchfaces",
+  "license": "GNU-GPL3",
+  "bin": {
+    "sdk5helper": "./bin/index.js"
+  },
+  "dependencies":{
+    "yargs": "16.0.3",
+	"jimp": "^0.16.1",
+	"image-size": "^0.9.1"
+  }
+}
