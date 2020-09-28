@@ -10,7 +10,7 @@
   "author": "StarWatchfaces",
   "license": "GNU-GPL3",
   "bin": {
-    "sdk5helper": "./bin/index.js"
+    "fitbit-sdk5-converter": "./bin/index.js"
   },
   "dependencies":{
     "yargs": "16.0.3",
