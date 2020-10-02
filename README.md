@@ -20,7 +20,7 @@ Download the code, then run *npm install -g* to install it globally
 **What it does:**
 1. it will create a back-up of your old project
 2. it will copy your project into a new folder, appending "sdk5" to it's name
-3. it you modify your project's package.json, remove old targets, add new targets, update sdk versions and bump the version
+3. it will modify your project's package.json, remove old targets, add new targets, update sdk versions and bump the version
 4. it will delete Ionic resources, if you have any
 5. if desired, will remove old kpay versions and add common files for the SDK 5 version, except the /app/ folder from the kpay library, whick you will need to copy manually from the downloaded zip
 6. will rename .gui to .view and/.or .defs
