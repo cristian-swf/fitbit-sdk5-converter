@@ -82,7 +82,7 @@ else
 	fileContent = JSON.parse(fileContent);
 
 	//replace sdk versions in project.json
-	fileContent.devDependencies['@fitbit/sdk'] = '~5.0.1';
+	fileContent.devDependencies['@fitbit/sdk'] = '~5.0.2';
 	fileContent.devDependencies['@fitbit/sdk-cli'] = '^1.7.3';
 	
 	//replace targets in project.json
